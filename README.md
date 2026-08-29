@@ -37,8 +37,8 @@ Once you launch the emulator, you can interact with it using the following comma
 | `wc` | `-w`, `-c` | `[input]` | Counts words or characters in a given input. | `wc -l notes.txt` |
 | `batch` | None | `[input]` | Reads and executes commands from the input (careful with recursion!) | `batch commands.bat` |
 
-> input *means that the command can accept either a string (surrounded by quotation marks), a file (provided as the relative path) or, if nothing is provided, will read from the console until it detects EOF (Ctrl + Z).*
-> input_file *means that the command accepts only files as input and will not work otherwise.*
+* **`[input]`**: *accepts either a string (surrounded by quotation marks), a file (provided as the relative path) or, if nothing is provided, will read from the console until it detects EOF (Ctrl + Z).*
+* **`[input_file]`**: *accepts only files as input and will not work otherwise.*
 
 ### I/O Redirection:
 * **`>` (Overwrite):** Redirects standard output of a command to a file, overwriting its content.
