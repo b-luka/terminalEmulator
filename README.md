@@ -2,7 +2,7 @@
 A simple terminal emulator written in C++, capable of a handful of commands.
 
 ## Compilation Commands:
-* **Compile the project:**
+* **Compile the program:**
   ```bash
   make
   ```
