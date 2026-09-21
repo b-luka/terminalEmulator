@@ -28,12 +28,12 @@ Once you launch the emulator, you can interact with it using the following comma
 | `echo` | None | `[input]` | Prints the provided text to the screen. | `echo "Hello World"` |
 | `date` | None | None | Displays the current system date. | `date` |
 | `time` | None | None | Displays the current system time. | `time` |
-| `head` | `-n[lines]` | `[input]` | Outputs the first part (lines) of a file. | `head -n5 file.txt` |
+| `head` | `-n[lines]` | `[input]` | Outputs the first `n` lines of a file. | `head -n5 file.txt` |
 | `prompt`| None | `[input]`| Changes the default terminal prompt indicator. | `prompt "#"` |
 | `touch`| None | `[input_file]` | Creates a new empty file, if it doesn't exist. | `touch new_file.txt` |
 | `rm` | None | `[input_file]` | Removes files. | `rm old_file.txt` |
 | `truncate`| None | `[input_file]` | Removes the contents of a file. | `truncate file.txt` |
-| `tr` | None | `[input] [set1] [set2]`| Translates or deletes characters every occurence of a string. | `tr "Hello World!" " " "-"` |
+| `tr` | None | `[input] [set1] [set2]`| Translates or deletes every occurence of a string. | `tr "Hello World!" " " "-"` |
 | `wc` | `-w`, `-c` | `[input]` | Counts words or characters in a given input. | `wc -l notes.txt` |
 | `batch` | None | `[input]` | Reads and executes commands from the input (careful with recursion!) | `batch commands.bat` |
 
